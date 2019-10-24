@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { NewsService } from '../news.service';
-import { INews } from '../models/news.model';
+import { NewsService } from '@app/news.service';
+import { INews } from '@app/models/news.model';
 
 @Component({
   selector: 'app-home',

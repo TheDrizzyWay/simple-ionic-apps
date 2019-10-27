@@ -19,7 +19,11 @@ const routes: Routes = [
       {
         path: 'tab2',
         loadChildren: '@app/pages/tab2/tab2.module#Tab2PageModule'
-      }
+      },
+      { 
+        path: 'tab3', 
+        loadChildren: '@app/pages/tab3/tab3.module#Tab3PageModule'
+      },
     ]
   },
   {
